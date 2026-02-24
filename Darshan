@@ -1,0 +1,106 @@
+1)
+package com.aa;
+
+public class Smartphone1 {
+	public static void main(String[] args) {
+		
+		String brandName = "Apple";
+	    String modelName = "iPhone 15";
+	    int storageCapacityGB = 256;
+	    int ramSizeGB = 8;
+	    String operatingSystem = "iOS";
+	    int batteryCapacitymAh = 3349;
+	    boolean isFiveGEnabled = true;
+	    
+	    
+	    System.out.println("--- Smartphone1 Details ---");
+        System.out.println("Brand: " + brandName + ", Model: " + modelName + ", 5G: " + isFiveGEnabled + ", Storage: "+ storageCapacityGB + ", Ram: "+ ramSizeGB);
+            
+           }
+        
+	    
+}
+
+2)
+package com.aa;
+
+public class Employee2 {
+	public static void main(String[] args) {
+		
+		int employeeId = 101;
+	    String fullName = "John Doe";
+	    String jobTitle = "Software Engineer";
+	    String departmentName = "IT";
+	    double monthlySalary = 75000.50;
+	    String dateOfJoining = "2024-01-15";
+	    boolean isWorkFromHome = true;
+	    
+	    System.out.println("--- Employee2 Records ---");
+        System.out.println("ID: " + employeeId + ", Name: " + fullName + ", Role: " + jobTitle);
+		
+		
+	}
+
+}
+3)
+package com.aa;
+
+public class BankAccount3 {
+	public static void main(String[] args) {
+		
+		long accountNumber = 9876543210L;
+	    String accountHolderName = "Jane Smith";
+	    String accountType = "Savings";
+	    double currentBalance = 50230.75;
+	    String branchIfscCode = "HDFC0001234";
+	    String linkedMobileNumber = "9988776655";
+	    boolean isAccountActive = true;
+	    
+	    System.out.println("--- Banking Information ---");
+        System.out.println("Holder: " + accountHolderName + ", Balance: " + currentBalance + ", Status: " + isAccountActive);
+	}
+
+}
+4)
+package com.aa;
+
+public class Vehicle4 {
+	public static void main(String[] args) {
+		
+		String registrationNumber = "MH-12-AB-1234";
+	    String vehicleMake = "Toyota";
+	    String vehicleModel = "Fortuner";
+	    int manufacturingYear = 2023;
+	    String fuelType = "Diesel";
+	    int engineDisplacementCC = 2755;
+	    boolean isInsuranceValid = true;
+	    
+	    
+	    System.out.println("--- Vehicle Specs ---");
+      System.out.println("Reg No: " + registrationNumber + ", Make: " + vehicleMake + ", Year: " + manufacturingYear);
+    }
+ }
+5)
+package com.aa;
+
+public class Onlinecourse5 {
+	public static void main(String[] args) {
+		
+		int courseId = 5001;
+	    String courseTitle = "Java Full Stack Development";
+	    String instructorName = "Dr. James";
+	    double durationInHours = 45.5;
+	    String courseDifficulty = "Intermediate";
+	    int enrollmentCount = 1250;
+	    boolean hasCertificate = true;
+	    
+	    System.out.println("--- Course Enrollment ---");
+        System.out.println("Title: " + courseTitle + ", Instructor: " + instructorName + ", Certificate: " + hasCertificate);
+		
+	}
+
+}
+
+
+
+
