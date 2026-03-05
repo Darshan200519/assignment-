@@ -1,0 +1,31 @@
+package operator;
+
+public class assignment {
+	public static void main(String[] args) {
+		
+		int b = 6;
+		b++; // 6 // 7
+		--b; // 6
+		System.out.println(b++); // 6 // 7 
+		b++; // 7 // 8
+		System.out.println(b % 3); // 2 
+		--b; // 7
+		System.out.println(b += 8); // 15
+		b++; // 15 // 16
+		
+		int c = b + 5; // 12
+		System.out.println(b++); // 16 // 17
+		--b; // 16
+		b %= 4; // 0
+		System.out.println(b++); // 0 // 1
+		++b; // 2
+		System.out.println(b + 10); // 12
+
+		System.out.println("______________________________");
+		System.out.println(b); // 2
+		System.out.println(c); // 21 
+	
+		
+
+	}
+}
