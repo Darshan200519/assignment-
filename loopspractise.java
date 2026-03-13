@@ -145,9 +145,96 @@ While Loops Programs
 //			}
 //		}
 //		System.out.println("Sum of Odd numbers between 1 t 100 ="+ sum);
+	//		do while loops programs 
+//		1. Print numbers from 1 to 10 using a loop
+//		int i = 1;
+//		do {
+//			System.out.println(i);
+//			i++;
+//		}while (i<=10); 
+//		
+//		2.Print numbers from 10 to 1
+//		int i=10 ;
+//		do {
+//			System.out.println(i);
+//			i--;
+//		}while(i>=1);
+//		3.Print all even numbers between 1 and 50
+//		int i = 1;
+//		do {
+//			if(i%2==0) {
+//				
+//				System.out.println(i);		
+//				
+//			} i++;
+//		}while(i<=50);
+//		4.Print all odd numbers between 1 and 50
+//		int i = 1;
+//		do {
+//			if(i%2==0) {
+//				
+////				System.out.println(i);		
+//				
+//			}else {
+//				System.out.println(i);
+//			}
+//				i++;
+//		}while(i<=50);
+//		5.Print the table of 5 using a loop
+//		int i = 1;
+//		do {
+//			System.out.println(5*i);
+//			i++;
+//		}while(i<=10);
+//		6.Print the table of any number (e.g., n = 7)
+//		int i = 1;
+//		do {
+//			int n= 7;
+//			System.out.println(n*i);
+//			i++;
+//		}while(i<=10);
+//		
+//		7..Print Hello 10 times
+//		int i = 1;
+//		do {
+//			System.out.println("Hello" + i);
+//			i++;
+//		}while(i<=10);
+//		8.Print the sum of first 10 natural numbers.
+//		int sum=0;
+//		int i = 1;
+//		do {
+//			sum +=i;
+//			i++;
+//		}while(i<=10);
+//		System.out.println(sum);
+//		9.Print the sum of even numbers from 1 to 100
+//		int sum = 0;
+//		int i = 1 ;
+//		do {
+//			if(i%2==0) {
+//				sum +=i;
+//			}
+//			i++;
+//		}while(i<=100);
+//		System.out.println(sum);
+//		10.Print the sum of odd numbers from 1 to 100
+	// 	int sum = 0;
+	// 	int i = 1 ;
+	// 	do {
+	// 		if(i%2==0) {
+				
+	// 		}else{
+	// 	sum +=i;
+	// }
+	// 		i++;
+	// 	}while(i<=100);
+	// 	System.out.println(sum);
+		
 	
 	}
 
 }
+
 
 
