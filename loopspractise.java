@@ -58,7 +58,96 @@ public class loopspractise {
 //			}
 //		}
 //		System.out.println("Sum of all Odd Numbers between 1 to 100 =" + sum);
+
+While Loops Programs 
+		//		1.Print numbers from 1 to 10 using a loop
+//		int i = 1; 
+//
+//        while (i <= 10) {
+//            System.out.println(i);
+//            
+//            i++;
+//        }
+//		               
+//		2.Print numbers from 10 to 1
+//		int i = 10;
+//		while (i>=1) {
+//			System.out.println(i);
+//			i--;
+//		} 
+//		3.Print all even numbers between 1 and 50
+//		int  i = 1;
+//		while (i<=50) {
+//			i++;
+//			if(i%2==0) {
+//				
+//				System.out.println(i);
+//			}
+//		}
+//		4.Print all odd numbers between 1 and 50
+//		int  i = 0;
+//		while (i<50) {
+//			i++;
+//			if(i%2!=0) {
+//				
+//				System.out.println(i);
+//			}
+//		}
+//		5.Print the table of 5 using a loop
+//		int i = 0 ;
+//		while (i<10) {
+//			i++;
+//			System.out.println(5*i);
+//
+//			
+//		}
+//		6.Print the table of any number (e.g., n = 7)
+//		int i = 0;
+//		while (i<10) {
+//			i++;
+//			int n=7;
+//			System.out.println(n*i);
+//			
+//			
+//		}
+//		7.Print Hello 10 times 
+//		int i = 1 ;
+//		while (i <=10) {
+//		System.out.println("Hello"+  i);
+//		i++;
+//		}	
+//		8.Print the sum of first 10 natural numbers.
+//		int sum = 0;
+//		int i = 0;
+//		while (i <10) {
+//			i++;
+//			sum +=i ;
+//			
+//		}
+//		System.out.println("Sum Of Fist 10 Natural Numbers ="+ sum);
+//		9.Print the sum of even numbers from 1 to 100
+//		int sum=0;
+//		int i = 0;
+//		while (i <100) {
+//			i++;
+//			if(i%2==0) {
+//				sum += i;
+//			}
+//		}
+//		System.out.println("Sum of Even numbers between 1 t 100 ="+ sum);
+//		10.Print the sum of odd numbers from 1 to 100
+//		int sum=0;
+//		int i = 0;
+//		while (i <100) {
+//			i++;
+//			if(i%2!=0) {
+//				sum += i;
+//			}
+//		}
+//		System.out.println("Sum of Odd numbers between 1 t 100 ="+ sum);
+	
 	}
 
 }
+
 
