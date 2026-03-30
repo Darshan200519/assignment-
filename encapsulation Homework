@@ -77,10 +77,16 @@ public class Bankaccount {
 		this.withdrawAmoount = withdrawAmoount;
 	}
 	
+	public double remainingBal() {
+		double remainingBal = depositAmount - withdrawAmoount ;
+		System.out.println("Remaining Bal : " + remainingBal ); 
+		return 0;
+	}
+	
 	
 	 
 		
-}
+}}
 package HomeWork;
 
 public class MainClassforBankaccount {
@@ -90,7 +96,8 @@ public class MainClassforBankaccount {
 		D.setWithdrawAmoount(25);
 		System.out.println("Deposit Amount : " + D.getDepositAmount());
 		System.out.println("Withdraw Amount : " + D.getWithdrawAmoount());
-		System.out.println("Remaining Balance : " + (D.getDepositAmount() - D.getWithdrawAmoount()));
+
+		D.remainingBal(); 
 	}
 
 }
